@@ -17,7 +17,7 @@ export default function FaqPage() {
             <h2 className="text-3xl font-extrabold text-gray-900">Frequently asked questions</h2>
             <p className="mt-4 text-lg text-gray-500">
               Can’t find the answer you’re looking for? Reach out to our
-              <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+              <a href="#" className="font-medium text-blue-500 hover:text-indigo-500">
                 customer support
               </a>
               team.

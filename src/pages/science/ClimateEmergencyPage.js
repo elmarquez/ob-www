@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ContentLayout } from '../../components/layout';
 
-function JobsPage() {
+function ClimatePage() {
   return (
     <ContentLayout>
       <div className="relative py-16 bg-white overflow-hidden">
@@ -10,10 +10,10 @@ function JobsPage() {
           <div className="text-lg max-w-prose mx-auto">
             <h1>
               <span className="block text-base text-center text-blue-500 font-semibold tracking-wide uppercase">
-                Jobs
+                Science
               </span>
               <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                How Carbon Offsetting Can Help Your Business
+                Climate Emergency
               </span>
             </h1>
             <div className="mt-6 flex items-center">
@@ -42,14 +42,14 @@ function JobsPage() {
               egestas fringilla sapien.
             </p>
           </div>
-          <div className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
+          <div className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto pb-8">
             <p>
               Faucibus commodo massa rhoncus, volutpat. <strong>Dignissim</strong> sed <strong>eget risus enim</strong>.
               Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra
               tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim.{' '}
-              <a href="#">Mattis mauris semper</a> sed amet vitae sed turpis id.
+              <Link to="#">Mattis mauris semper</Link> sed amet vitae sed turpis id.
             </p>
-            <ul role="list">
+            <ul>
               <li>Quis elit egestas venenatis mattis dignissim.</li>
               <li>Cras cras lobortis vitae vivamus ultricies facilisis tempus.</li>
               <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
@@ -88,7 +88,7 @@ function JobsPage() {
             </figure>
             <h2>Everything you need to get up and running</h2>
             <p>
-              Purus morbi dignissim senectus mattis <a href="#">adipiscing</a>. Amet, massa quam varius orci dapibus
+              Purus morbi dignissim senectus mattis <Link to="#">adipiscing</Link>. Amet, massa quam varius orci dapibus
               volutpat cras. In amet eu ridiculus leo sodales cursus tristique. Tincidunt sed tempus ut viverra ridiculus
               non molestie. Gravida quis fringilla amet eget dui tempor dignissim. Facilisis auctor venenatis varius nunc,
               congue erat ac. Cras fermentum convallis quam.
@@ -104,4 +104,4 @@ function JobsPage() {
   );
 }
 
-export default JobsPage;
+export default ClimatePage;

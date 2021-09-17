@@ -1,6 +1,7 @@
 import blog from './blog';
 import company from './company';
 import contact from './contact';
+import dashboard from './dashboard';
 import error from './error';
 import home from './home';
 import legal from './legal';
@@ -11,6 +12,7 @@ export {
   blog,
   company,
   contact,
+  dashboard,
   error,
   home,
   legal,

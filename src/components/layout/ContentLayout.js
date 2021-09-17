@@ -1,11 +1,11 @@
 import React from 'react';
 import Footer from '../footer';
-import Header from '../header';
+import SiteHeader from '../header/SiteHeader';
 
 function ContentLayout(props) {
     return (
-        <div className="relative overflow-hidden">
-            <Header />
+        <div className="">
+            <SiteHeader />
             <main>{props.children}</main>
             <Footer />
         </div>

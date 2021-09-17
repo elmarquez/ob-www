@@ -50,7 +50,7 @@
                 video.options = '?autoplay=1title=0&byline=0&portrait=0';
             }
             video.player = document.createElement('iframe');
-            video.player.setAttribute('allowfullscreen', '');
+            video.player.setAttribute('allowFullScreen', '');
             video.player.className = 'lightbox-video-player';
             video.player.src = 'https://' + video.url + video.id + video.options;
             video.wrapper = document.createElement('div');

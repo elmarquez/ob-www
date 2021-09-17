@@ -1,4 +1,4 @@
-import ListPage from './List.js';
+import ListPage from './List';
 import PostPage from './Post';
 
 export default {

@@ -1,7 +1,11 @@
-import React from 'react';
+import ArtificialUpwelling from './ArtificialUpwellingPage';
+import ClimateEmergencyPage from './ClimateEmergencyPage';
+import CarbonSequestrationPage from './CarbonSequestrationPage';
+import PhytoplanktonPage from './PhytoplanktonPage';
 
-function SciencePage() {
-  return (<div>Science</div>);
-}
-
-export default SciencePage;
+export default {
+  ArtificialUpwelling,
+  CarbonSequestrationPage,
+  ClimateEmergencyPage,
+  PhytoplanktonPage,
+};
