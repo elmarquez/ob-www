@@ -16,6 +16,7 @@ const Routes = () => (
     <Route path='/legal/privacy' component={legal.PrivacyPage} exact={true} />
     <Route path='/legal/terms' component={legal.TermsPage} exact={true} />
     <Route path='/login' component={dashboard.LoginPage} exact={true} />
+    <Route path='/science' component={science.SummaryPage} exact={true} />
     <Route path='/science/artificial-upwelling' component={science.ArtificialUpwelling} exact={true} />
     <Route path='/science/carbon-sequestration' component={science.CarbonSequestrationPage} exact={true} />
     <Route path='/science/climate-emergency' component={science.ClimateEmergencyPage} exact={true} />

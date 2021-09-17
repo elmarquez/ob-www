@@ -4,7 +4,7 @@ export default function renderMission() {
     return (
       <div className="relative bg-white py-16 sm:py-24 lg:py-32">
         <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-          <h2 className="text-base font-semibold tracking-wider text-cyan-600 uppercase">The Mission</h2>
+          <h2 className="text-base font-semibold tracking-wider text-blue-500 uppercase">The Mission</h2>
           <p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
             Here's the plan. We need your help
           </p>

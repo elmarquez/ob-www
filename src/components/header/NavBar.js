@@ -24,7 +24,7 @@ function NavBar(props) {
             </div>
           </div>
           <div className="hidden space-x-8 md:flex md:ml-10">
-            <Link to="/science/climate-emergency" className={`text-base font-medium ${textColor}`}>Climate Emergency</Link>
+            <Link to="/science/climate-emergency" className={`text-base font-medium ${textColor}`}>Climate</Link>
             <Link to="/science" className={`text-base font-medium ${textColor}`}>Science</Link>
             <Link to="/technology" className={`text-base font-medium ${textColor}`}>Technology</Link>
             <Link to="/carbon-credits" className={`text-base font-medium ${textColor}`}>Carbon Credits</Link>
