@@ -180,6 +180,6 @@ function TeamPage() {
       </div>
     </ContentLayout>
   )
-};
+}
 
 export default TeamPage;

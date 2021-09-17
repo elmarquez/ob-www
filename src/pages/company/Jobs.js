@@ -49,7 +49,7 @@ function JobsPage() {
               tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim.{' '}
               <a href="#">Mattis mauris semper</a> sed amet vitae sed turpis id.
             </p>
-            <ul role="list">
+            <ul>
               <li>Quis elit egestas venenatis mattis dignissim.</li>
               <li>Cras cras lobortis vitae vivamus ultricies facilisis tempus.</li>
               <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
@@ -88,7 +88,7 @@ function JobsPage() {
             </figure>
             <h2>Everything you need to get up and running</h2>
             <p>
-              Purus morbi dignissim senectus mattis <a href="#">adipiscing</a>. Amet, massa quam varius orci dapibus
+              Purus morbi dignissim senectus mattis <Link to="#">adipiscing</Link>. Amet, massa quam varius orci dapibus
               volutpat cras. In amet eu ridiculus leo sodales cursus tristique. Tincidunt sed tempus ut viverra ridiculus
               non molestie. Gravida quis fringilla amet eget dui tempor dignissim. Facilisis auctor venenatis varius nunc,
               congue erat ac. Cras fermentum convallis quam.
