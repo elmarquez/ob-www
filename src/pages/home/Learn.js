@@ -104,12 +104,14 @@ export default function renderLearningResources() {
       <div className="relative bg-gray-50 py-16 sm:py-24 lg:py-32">
         <div className="relative">
           <div className="text-center mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-            <h2 className="text-base font-semibold tracking-wider text-cyan-600 uppercase">Learn</h2>
+          <h2 className="text-base font-semibold tracking-wider text-blue-500 uppercase">Learn</h2>
             <p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
               Carbon Sequestration 101
             </p>
             <p className="mt-5 mx-auto max-w-prose text-xl text-gray-500">
-              Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.
+              Climate change is a complex and multi-faceted problem. We've produced this collection
+              of learning resources to help get you up to speed on some of the key challenges we're
+              facing, and the solutions that are available.
             </p>
           </div>
           <div className="mt-12 mx-auto max-w-md px-4 grid gap-8 sm:max-w-lg sm:px-6 lg:px-8 lg:grid-cols-3 lg:max-w-7xl">
