@@ -4,8 +4,8 @@ import Connect from './Connect';
 import HeroBlock from './Hero';
 import Learn from './Learn';
 import Mission from './Mission';
+import Offer from './Offer';
 import Problem from './Problem';
-import Service from './Service';
 import Solution from './Solution';
 
 import Footer from '../../components/footer';
@@ -43,7 +43,7 @@ function HomePage() {
       <main className={'flex flex-col'}>
         <Problem />
         <Solution />
-        <Service />
+        <Offer />
         <Mission />
         <Learn />
         <Connect />
