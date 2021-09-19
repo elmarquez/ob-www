@@ -16,7 +16,7 @@ function Hero() {
                 Coming soon
               </span>
               <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl pb-8">
-                <span className="block text-shadow-md">Massively scaleable, low cost carbon sequestration</span>
+                <span className="block text-shadow-md">Massively scalable, low cost carbon sequestration</span>
               </h1>
               <p className="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl text-shadow-md">
                 Our goal is to capture gigatons of CO<sub>2</sub> and store it in the deep ocean.

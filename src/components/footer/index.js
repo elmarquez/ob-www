@@ -12,7 +12,7 @@ function Footer() {
           <div className="space-y-8 xl:col-span-1">
             <img className="h-10 opacity-50" src={OceanBasedLogo} alt="Ocean Based Climate Solutions" />
             <p className="text-gray-500 text-base">
-              Massively scaleable, low cost carbon sequestration that revitalizes the ocean
+              Massively scalable, low cost carbon sequestration that revitalizes the ocean
             </p>
             <div className="flex space-x-6">
               <a href="https://www.facebook.com/oceanbasedclimatesolutions" className="text-gray-400 hover:text-gray-500">

@@ -29,16 +29,17 @@ function Page() {
             </div>
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
                 <div className="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
-                    <h2 className="text-sm font-semibold text-blue-500 tracking-wide uppercase">Artifical Upwelling Pumps (AUP)</h2>
+                    <h2 className="text-sm font-semibold text-blue-500 tracking-wide uppercase">Artificial Upwelling Pumps (AUP)</h2>
                     <p className="mt-3 text-3xl font-extrabold text-white">
-                        Wave powered pumps offer a simple, reliable and highly scaleable
-                        solution to capturing gigatons of CO<sub>2</sub>
+                        Wave powered pumps are a reliable and highly scalable
+                        solution for capturing gigatons of CO<sub>2</sub>
                     </p>
                     <p className="mt-5 text-lg text-gray-300">
                         Our pumps bring nutrient rich water up from 500m below the ocean surface, causing
                         massive <Link to={'/science/phytoplankton'} className={'text-purple-400 underline'}>phytoplankton</Link>{' '}
-                        blooms. Like trees, plankton absorb CO<sub>2</sub> when they grow. When they die, they
-                        sink to the bottom of the ocean, locking that CO<sub>2</sub> up for 100 years or more.
+                        blooms. Like trees, plankton absorb CO<sub>2</sub> when they grow. Then, when they die, they
+                        sink to the bottom of the ocean and lock up that CO<sub>2</sub> for 100 years or more.
+                        Its a 100% natural carbon sequestration system.
                     </p>
                     <div className="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
                         <p>
@@ -50,7 +51,7 @@ function Page() {
                         <p>
                             <span className="block text-2xl font-bold text-white">$4 million</span>
                             <span className="mt-1 block text-base text-gray-300">
-                                <span className="font-medium text-white">Research funding</span> raised from major institutions including Los Alamos and Sandia National Labs, Texas A&M, and the Oregon Wave Trust for laboratory and field testing.
+                                <span className="font-medium text-white">Research funding</span>  for laboratory and field testing raised from major institutions including Los Alamos and Sandia National Labs, Texas A&M, and the Oregon Wave Trust.
                             </span>
                         </p>
                         <p>
