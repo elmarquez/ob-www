@@ -16,11 +16,10 @@ function Page() {
               Join our team in the fight to end the climate emergency
             </p>
             <p className="mt-3 text-lg text-gray-300">
-              The time for action is now. 
-              We’re looking for people of all skills and talents. We’re looking for business
-              partners who can help us fabricate, deliver, deploy and manage our fleet of pumps.
-              Visit our opportunities page for the list of requests for proposals, job vacancies,
-              and volunteer positions.
+              The time for action is now. We’re looking for business partners
+              and people of all skills and talents. Visit our opportunities
+              page to see current requests for proposals, job vacancies, and
+              volunteer positions.
             </p>
             <div className="mt-8">
               <div className="inline-flex rounded-md shadow">

@@ -35,23 +35,23 @@ function Page() {
                         solution for capturing gigatons of CO<sub>2</sub>
                     </p>
                     <p className="mt-5 text-lg text-gray-300">
-                        Our pumps bring nutrient rich water up from 500m below the ocean surface, causing
+                        Our pumps bring nutrient rich water up from 500m below the ocean surface to the top, causing
                         massive <Link to={'/science/phytoplankton'} className={'text-purple-400 underline'}>phytoplankton</Link>{' '}
                         blooms. Like trees, plankton absorb CO<sub>2</sub> when they grow. Then, when they die, they
-                        sink to the bottom of the ocean and lock up that CO<sub>2</sub> for 100 years or more.
+                        sink to the bottom of the ocean and lock that CO<sub>2</sub> up for 100 years or more.
                         Its a 100% natural carbon sequestration system.
                     </p>
                     <div className="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
                         <p>
-                            <span className="block text-2xl font-bold text-white">15</span>
+                            <span className="block text-2xl font-bold text-white">15 years</span>
                             <span className="mt-1 block text-base text-gray-300">
-                                <span className="font-medium text-white">Years of R&D</span> in labs and the open ocean have gone into the development of the AUP. Our pumps are designed to last for 80 years and endure the harshest marine conditions.
+                                <span className="font-medium text-white">Research and development work</span> in labs and the open ocean have gone into the development of the AUP. Our pumps are designed to last for 80 years and endure the harshest marine conditions.
                             </span>
                         </p>
                         <p>
                             <span className="block text-2xl font-bold text-white">$4 million</span>
                             <span className="mt-1 block text-base text-gray-300">
-                                <span className="font-medium text-white">Research funding</span>  for laboratory and field testing raised from major institutions including Los Alamos and Sandia National Labs, Texas A&M, and the Oregon Wave Trust.
+                                <span className="font-medium text-white">Research funding</span> for laboratory and field testing raised from major institutions including Los Alamos and Sandia National Labs, Texas A&M, and the Oregon Wave Energy Trust.
                             </span>
                         </p>
                         <p>

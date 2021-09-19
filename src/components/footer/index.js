@@ -3,9 +3,10 @@ import { Link } from 'react-router-dom';
 
 import OceanBasedLogo from '../../images/ocean-based-logo-gray.png';
 
-function Footer() {
+function Footer(props) {
+  const paddingBottom = props.paddingBottom ? props.paddingBottom : 0;
   return (
-    <footer className="bg-gray-50" aria-labelledby="footer-heading">
+    <footer className="bg-gray-50" aria-labelledby="footer-heading" style={{"paddingBottom": paddingBottom}}>
       <h2 id="footer-heading" className="sr-only">Ocean Based Climate Solutions</h2>
       <div className="max-w-md mx-auto pt-12 px-4 sm:max-w-7xl sm:px-6 lg:pt-16 lg:px-8">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">

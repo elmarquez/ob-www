@@ -39,7 +39,7 @@ function Hero() {
             </div>
           </div>
           <div className="mt-12 mb-16 sm:mb-48 lg:m-0 lg:relative flex flex-col justify-center items-center">
-            <div className="relative mx-auto w-full rounded-lg shadow-lg max-w-lg p-4">
+            <div className="relative mx-auto w-full rounded-lg shadow-lg max-w-lg p-4 mb-8">
               <button
                 type="button"
                 className="relative block w-full rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
