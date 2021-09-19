@@ -109,7 +109,7 @@ export default function renderLearningResources() {
               Carbon Sequestration 101
             </p>
             <p className="mt-5 mx-auto max-w-prose text-xl text-gray-500">
-              Climate change is a complex and multi-faceted problem. We've produced this collection
+              We've produced this collection
               of learning resources to help get you up to speed on some of the key challenges we're
               facing, and the solutions that are available.
             </p>

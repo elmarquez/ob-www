@@ -103,13 +103,13 @@ function Footer() {
                 </h3>
                 <ul className="mt-4 space-y-4">
                   <li>
-                    <Link to="/company" className="text-base text-gray-500 hover:text-gray-900">About</Link>
+                    <Link to="/company" className="text-base text-gray-500 hover:text-gray-900">About Us</Link>
                   </li>
                   <li>
                     <Link to="/blog" className="text-base text-gray-500 hover:text-gray-900">Blog</Link>
                   </li>
                   <li>
-                    <Link to="/company/jobs" className="text-base text-gray-500 hover:text-gray-900">Jobs</Link>
+                    <Link to="/company/opportunities" className="text-base text-gray-500 hover:text-gray-900">Opportunities</Link>
                   </li>
                   <li>
                     <Link to="/company/press" className="text-base text-gray-500 hover:text-gray-900">Press</Link>

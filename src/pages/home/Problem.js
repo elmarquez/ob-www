@@ -25,11 +25,11 @@ function Page() {
                         </svg>
                       </span>
                     </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">Can Absorb Gigatons of CO<sub>2</sub></h3>
+                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">Phytoplankton Powered</h3>
                     <p className="mt-5 text-base text-gray-500">
-                      Phytoplankton live on the surface of the ocean and convert CO<sub>2</sub>{' '}
-                      into calcium carbonate (limestone) that gets locked in the deep sea
-                      for more than 100 years.
+                      Phytoplankton live on the surface of the ocean, absorb CO<sub>2</sub>{' '}
+                      when they grow, and convert it into calcium carbonate (limestone) that
+                      gets locked in the deep sea for more than 100 years.
                     </p>
                   </div>
                 </div>

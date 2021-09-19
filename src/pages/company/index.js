@@ -1,9 +1,9 @@
-import AboutPage from './Team';
-import JobsPage from './Jobs';
-import PressPage from './Press';
+import AboutPage from './AboutPage';
+import OpportunitiesPage from './OpportunitiesPage';
+import PressPage from './PressPage';
 
 export default {
   AboutPage,
-  JobsPage,
+  OpportunitiesPage,
   PressPage,
 }

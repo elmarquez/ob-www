@@ -44,7 +44,7 @@ function Page() {
                         <p>
                             <span className="block text-2xl font-bold text-white">15</span>
                             <span className="mt-1 block text-base text-gray-300">
-                                <span className="font-medium text-white">Years of R&D</span> in labs and the open ocean have gone into the development of the AUP. Our pumps are designed to last for 80 years in the open ocean and endure the harshest weather.
+                                <span className="font-medium text-white">Years of R&D</span> in labs and the open ocean have gone into the development of the AUP. Our pumps are designed to last for 80 years and endure the harshest marine conditions.
                             </span>
                         </p>
                         <p>
