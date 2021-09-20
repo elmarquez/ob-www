@@ -12,7 +12,6 @@ import Solution from './Solution';
 import Footer from '../../components/footer';
 import NavBar from '../../components/header/NavBar';
 
-
 function renderCustomerDashboard() {
   return (
     <div className="relative bg-gray-50 pt-16 sm:pt-24 lg:pt-32">
@@ -36,7 +35,7 @@ function renderCustomerDashboard() {
 
 function renderStickyFooter() {
   return (
-    <div className="fixed inset-x-0 bottom-0">
+    <div id="wefunder-sticky-footer" className="fixed inset-x-0 bottom-0">
       <div className="bg-green-600">
         <div className="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between flex-nowrap">
@@ -57,16 +56,19 @@ function renderStickyFooter() {
               Learn more
             </a>
             <div className="flex-shrink-0 ml-2">
-              <a id="dismiss-sticky-footer-button" href="#" className="flex -mr-1 p-2 rounded-md hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-white">
+              <div
+                id="dismiss-sticky-footer-button"
+                className="flex -mr-1 p-2 rounded-md hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-white"
+              >
                 <span className="sr-only">Dismiss</span>
                 <XIcon className="h-6 w-6 text-white" aria-hidden="true" />
-              </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 function HomePage() {

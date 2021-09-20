@@ -1,19 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta name="description" content="Ocean Based Climate Solutions. Artificial upwelling pumps. Ocean based carbon dioxide removal (oceancdr). Carbon sequestration services that help businesses get to net-zero emissions." />
-    <title>Ocean Based Climate Solutions</title>
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description"
+    content="Ocean Based Climate Solutions. Artificial upwelling pumps. Ocean based carbon dioxide removal (oceancdr). Carbon sequestration services that help businesses get to net-zero emissions." />
+  <title>Ocean Based Climate Solutions</title>
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <script>
+    // COOKIES
+    const WEFUNDER_20210920_HIDE_FOOTER = 'wefunder-20210920-hide-sticky-footer';
+    // ELEMENTS
+    const WEFUNDER_STICKY_FOOTER = '#wefunder-sticky-footer';
+    const WEFUNDER_STICKY_FOOTER_DISMISS_BUTTON = '#dismiss-sticky-footer-button';
+
+    function dismissWefunderStickyFooter() {
+      setCookie(WEFUNDER_20210920_HIDE_FOOTER, true);
+      $(WEFUNDER_STICKY_FOOTER).remove();
+    }
+
+    function getCookie(name) {
+      const cookies = document.cookie.split(';');
+      for (let i = 0; i < cookies.length; i++) {
+        let c = cookies[i].trim().split('=');
+        if (c[0] === name) {
+          return c[1];
+        }
+      }
+      return null;
+    }
+
+    function removeCookie(name) {
+      setCookie(name, '', -1);
+    }
+
+    function setCookie(name, value, days, path, domain, secure) {
+      let cookie = `${name}=${encodeURIComponent(value)}`;
+      if (days) {
+        const expiry = new Date();
+        expiry.setDate(expiry.getDate() + days);
+        cookie += `; expires=${expiry.toUTCString()}`;
+      }
+      if (path) cookie += `; path=${path}`;
+      if (domain) cookie += `; domain=${domain}`;
+      if (secure) cookie += `; secure`;
+      document.cookie = cookie;
+    };
+
+    $(document).ready(function () {
+      const hide_wefunder_show_footer = getCookie(WEFUNDER_20210920_HIDE_FOOTER);
+      if (hide_wefunder_show_footer) {
+        dismissWefunderStickyFooter();
+      } else {
+        $(WEFUNDER_STICKY_FOOTER_DISMISS_BUTTON).click(function() {
+          dismissWefunderStickyFooter();
+        });
+      }
+    });
+  </script>
+</body>
+
 </html>
