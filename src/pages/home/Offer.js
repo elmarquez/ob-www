@@ -48,8 +48,8 @@ function renderRegisterForCredits() {
     return (
         <div className="bg-indigo-50">
             <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-24 lg:px-8 lg:flex lg:items-center lg:justify-between">
-                <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 md:text-4xl">
-                    <span className="block">Preregister to Purchase Carbon Credits</span>
+                <h2 className="text-3xl font-extrabold text-gray-900 md:text-4xl">
+                    <span className="block tracking-tight ">Preregister to Purchase Carbon Credits</span>
                     <span className="block text-blue-500 text-xl">Credits will be offered for sale following certification</span>
                 </h2>
                 <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
@@ -87,20 +87,27 @@ function Page() {
                                 Net-zero is the new standard
                             </h3>
                             <p className="mt-3 text-lg text-gray-500">
-                                The world is transitioning to a low-carbon economy. Policy makers, investors and customers are demanding that businesses ensure their supply chains achieve net-zero emissions targets.
+                                The world is transitioning to a low-carbon economy. Customers and investors are rewarding businesses that achieve net-zero emissions.
                             </p>
                             <dl className="mt-10 space-y-10">
-                                {transferFeatures.map((item) => (
-                                    <div key={item.id} className="relative">
-                                        <dt>
-                                            <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
-                                                <item.icon className="h-6 w-6" aria-hidden="true" />
-                                            </div>
-                                            <p className="ml-16 text-lg leading-6 font-medium text-gray-900">{item.name}</p>
-                                        </dt>
-                                        <dd className="mt-2 ml-16 text-base text-gray-500">{item.description}</dd>
-                                    </div>
-                                ))}
+                                <div className="relative">
+                                    <dt>
+                                        <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                                            <GlobeAltIcon className="h-6 w-6" aria-hidden="true" />
+                                        </div>
+                                        <p className="ml-16 text-lg leading-6 font-medium text-gray-900">Businesses Create Value by Addressing Climate Risk</p>
+                                    </dt>
+                                    <dd className="mt-2 ml-16 text-base text-gray-500">Climate change is an existential risk. Its clear that companies that work to mitigate that risk are creating new value, and will be rewarded by the market. Those who lag behind will lose relevance.</dd>
+                                </div>
+                                <div className="relative">
+                                    <dt>
+                                        <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                                            <GlobeAltIcon className="h-6 w-6" aria-hidden="true" />
+                                        </div>
+                                        <p className="ml-16 text-lg leading-6 font-medium text-gray-900">Carbon Markets</p>
+                                    </dt>
+                                    <dd className="mt-2 ml-16 text-base text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
+                                </div>
                             </dl>
                         </div>
                         <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
@@ -113,24 +120,41 @@ function Page() {
                     <div className="relative mt-12 sm:mt-16 lg:mt-24">
                         <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
                             <div className="lg:col-start-2">
-                                <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">A Transparent &amp; Cost-Effective Solution</h3>
+                                <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">Transparent and cost-effective solution</h3>
                                 <p className="mt-3 text-lg text-gray-500">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ex obcaecati natus eligendi delectus,
-                                    cum deleniti sunt in labore nihil quod quibusdam expedita nemo.
+                                    Our wave powered pumps are extremely cost effective and can scale to meet your needs, 
+                                    whether you're offsetting a small business or a global enterprise.
                                 </p>
-
                                 <dl className="mt-10 space-y-10">
-                                    {communicationFeatures.map((item) => (
-                                        <div key={item.id} className="relative">
-                                            <dt>
-                                                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
-                                                    <item.icon className="h-6 w-6" aria-hidden="true" />
-                                                </div>
-                                                <p className="ml-16 text-lg leading-6 font-medium text-gray-900">{item.name}</p>
-                                            </dt>
-                                            <dd className="mt-2 ml-16 text-base text-gray-500">{item.description}</dd>
-                                        </div>
-                                    ))}
+                                    <div className="relative">
+                                        <dt>
+                                            <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                                                <GlobeAltIcon className="h-6 w-6" aria-hidden="true" />
+                                            </div>
+                                            <p className="ml-16 text-lg leading-6 font-medium text-gray-900">Low Cost</p>
+                                        </dt>
+                                        <dd className="mt-2 ml-16 text-base text-gray-500">Ocean sequestration does not require land, energy, specific geological features, or artificial markets for carbon goods. It can't catch fire. It won't reemerge for another 100 years</dd>
+                                    </div>
+                                    <div className="relative">
+                                        <dt>
+                                            <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                                                <GlobeAltIcon className="h-6 w-6" aria-hidden="true" />
+                                            </div>
+                                            <p className="ml-16 text-lg leading-6 font-medium text-gray-900">Low Risk</p>
+                                        </dt>
+                                        <dd className="mt-2 ml-16 text-base text-gray-500">Ocean sequestration does not require land, energy, specific geological features, or artificial markets for carbon goods. It can't catch fire. It won't run out of scarce metals. And, once sunk, the CO<sub>2</sub> won't reemerge for more than 100 years.</dd>
+                                    </div>
+                                    <div className="relative">
+                                        <dt>
+                                            <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                                                <GlobeAltIcon className="h-6 w-6" aria-hidden="true" />
+                                            </div>
+                                            <p className="ml-16 text-lg leading-6 font-medium text-gray-900">Integrations for Marketing and Management</p>
+                                        </dt>
+                                        <dd className="mt-2 ml-16 text-base text-gray-500">We provide a customer dashboard and developer API that not only gives your business that ability to manage your 
+                                          reporting processes, but enables you to see up to the minute data about your AUP fleet, and integrate real time data feeds 
+                                          into your marketing channels. You'll be able to build new relationships with your market.</dd>
+                                    </div>
                                 </dl>
                             </div>
 
