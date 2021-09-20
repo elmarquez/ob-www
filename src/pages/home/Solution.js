@@ -35,7 +35,7 @@ function Page() {
                         solution for capturing gigatons of CO<sub>2</sub>
                     </p>
                     <p className="mt-5 text-lg text-gray-300">
-                        Our pumps bring nutrient rich water up from 500m below the ocean surface to the top, causing
+                        Our pumps bring nutrient rich water from 500m below the ocean surface up to the top, causing
                         massive <Link to={'/science/phytoplankton'} className={'text-purple-400 underline'}>phytoplankton</Link>{' '}
                         blooms. Like trees, plankton absorb CO<sub>2</sub> when they grow. Then, when they die, they
                         sink to the bottom of the ocean and lock that CO<sub>2</sub> up for 100 years or more.

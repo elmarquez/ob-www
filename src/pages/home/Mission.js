@@ -16,7 +16,7 @@ export default function renderMission() {
         </p>
 
         <div className="mt-12 flex flex-col justify-center items-center">
-          <img src={MilestonesDiagram} alt="Milestones" className={'lg:h-full lg:max-h-96'} style={{'margin-right':'-64px'}} />
+          <img src={MilestonesDiagram} alt="Milestones" className={'lg:h-full lg:max-h-96'} />
         </div>
         <div className="mt-12">
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
