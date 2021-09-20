@@ -87,7 +87,7 @@ function Page() {
                                 Net-zero is the new standard
                             </h3>
                             <p className="mt-3 text-lg text-gray-500">
-                                The world is transitioning to a low-carbon economy. Customers and investors are rewarding businesses that achieve net-zero emissions.
+                                The transition to a low-carbon economy is a major business opportunity. Customers and investors are rewarding businesses that achieve net-zero emissions.
                             </p>
                             <dl className="mt-10 space-y-10">
                                 <div className="relative">
@@ -120,10 +120,10 @@ function Page() {
                     <div className="relative mt-12 sm:mt-16 lg:mt-24">
                         <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
                             <div className="lg:col-start-2">
-                                <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">Transparent and cost-effective solution</h3>
+                                <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">Cost is no longer the barrier</h3>
                                 <p className="mt-3 text-lg text-gray-500">
-                                    Our wave powered pumps are extremely cost effective and can scale to meet your needs, 
-                                    whether you're offsetting a small business or a global enterprise.
+                                    Whether you're offsetting a small business or a global enterprise,
+                                    our wave powered pumps are extremely cost effective and can scale to meet your needs.
                                 </p>
                                 <dl className="mt-10 space-y-10">
                                     <div className="relative">
@@ -151,9 +151,11 @@ function Page() {
                                             </div>
                                             <p className="ml-16 text-lg leading-6 font-medium text-gray-900">Integrations for Marketing and Management</p>
                                         </dt>
-                                        <dd className="mt-2 ml-16 text-base text-gray-500">We provide a customer dashboard and developer API that not only gives your business that ability to manage your 
-                                          reporting processes, but enables you to see up to the minute data about your AUP fleet, and integrate real time data feeds 
-                                          into your marketing channels. You'll be able to build new relationships with your market.</dd>
+                                        <dd className="mt-2 ml-16 text-base text-gray-500">
+                                            We provide a customer dashboard and developer API that not only makes reporting faster and cheaper,
+                                            but gives you up-to-the-minute data about your AUP fleet. Use our API to provide offsets data in your
+                                            marketing channels and build stronger relationships with your customers.
+                                        </dd>
                                     </div>
                                 </dl>
                             </div>
