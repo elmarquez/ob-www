@@ -87,7 +87,7 @@ function Page() {
                                 Net-zero is the new standard
                             </h3>
                             <p className="mt-3 text-lg text-gray-500">
-                                The transition to a low-carbon economy is a major business opportunity. Customers and investors are rewarding businesses that achieve net-zero emissions.
+                                The transition to a low-carbon economy is a major business opportunity. Customers and investors will reward companies that achieve net-zero emissions.
                             </p>
                             <dl className="mt-10 space-y-10">
                                 <div className="relative">
@@ -131,16 +131,7 @@ function Page() {
                                             <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                                                 <GlobeAltIcon className="h-6 w-6" aria-hidden="true" />
                                             </div>
-                                            <p className="ml-16 text-lg leading-6 font-medium text-gray-900">Low Cost</p>
-                                        </dt>
-                                        <dd className="mt-2 ml-16 text-base text-gray-500">Ocean sequestration does not require land, energy, specific geological features, or artificial markets for carbon goods. It can't catch fire. It won't reemerge for another 100 years</dd>
-                                    </div>
-                                    <div className="relative">
-                                        <dt>
-                                            <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
-                                                <GlobeAltIcon className="h-6 w-6" aria-hidden="true" />
-                                            </div>
-                                            <p className="ml-16 text-lg leading-6 font-medium text-gray-900">Low Risk</p>
+                                            <p className="ml-16 text-lg leading-6 font-medium text-gray-900">Low Cost &amp; Low Risk</p>
                                         </dt>
                                         <dd className="mt-2 ml-16 text-base text-gray-500">Ocean sequestration does not require land, energy, specific geological features, or artificial markets for carbon goods. It can't catch fire. It won't run out of scarce metals. And, once sunk, the CO<sub>2</sub> won't reemerge for more than 100 years.</dd>
                                     </div>
@@ -152,8 +143,8 @@ function Page() {
                                             <p className="ml-16 text-lg leading-6 font-medium text-gray-900">Integrations for Marketing and Management</p>
                                         </dt>
                                         <dd className="mt-2 ml-16 text-base text-gray-500">
-                                            We provide a customer dashboard and developer API that not only makes reporting faster and cheaper,
-                                            but gives you up-to-the-minute data about your AUP fleet. Use our API to provide offsets data in your
+                                            Our customer dashboard and developer API not only make emissions reporting faster and cheaper,
+                                            but give you up-to-the-minute data about your AUP fleet. Use our API to provide offsets data in your
                                             marketing channels and build stronger relationships with your customers.
                                         </dd>
                                     </div>
