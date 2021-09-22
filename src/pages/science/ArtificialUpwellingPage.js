@@ -16,86 +16,46 @@ function ClimatePage() {
                 Artificial Upwelling
               </span>
             </h1>
-            <div className="mt-6 flex items-center">
-              <div className="flex-shrink-0">
-                <Link to={"#"}>
-                  <span className="sr-only">Daniela Metz</span>
-                  <img className="h-10 w-10 rounded-full" src={'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80'} alt="" />
-                </Link>
-              </div>
-              <div className="ml-3">
-                <p className="text-sm font-medium text-gray-900">
-                  <Link to={'#'} className="hover:underline">
-                    Daniela Metz
-                  </Link>
-                </p>
-                <div className="flex space-x-1 text-sm text-gray-500">
-                  <span>Feb 12, 2020</span>
-                  <span aria-hidden="true">&middot;</span>
-                  <span>11 read</span>
-                </div>
-              </div>
-            </div>
-            <p className="mt-8 text-xl text-gray-500 leading-8">
-              Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget
-              aliquam. Quisque id at vitae feugiat egestas ac. Diam nulla orci at in viverra scelerisque eget. Eleifend
-              egestas fringilla sapien.
-            </p>
           </div>
           <div className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto pb-8">
             <p>
-              Faucibus commodo massa rhoncus, volutpat. <strong>Dignissim</strong> sed <strong>eget risus enim</strong>.
-              Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra
-              tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim.{' '}
-              <Link to="#">Mattis mauris semper</Link> sed amet vitae sed turpis id.
+              Since 2005, our team of engineers and ocean scientists have designed, built, and tested our climate and ocean positive technology to fertilize phytoplankton, which absorbs CO2. Our objective with the following content is to provide a scientific and technical explanation for Artificial Upwelling Pumps for Ocean Carbon Dioxide Removal (CDR).
+            </p>
+            <p>
+              In reviewing possible risks of conducting artificial upwelling, Professor Andreas Oschlies from GEOMAR says the following: “There is essentially no environmental risk associated with small-scale field trials. For hypothetical large-scale deployment, local oxygenation of subsurface waters by translocation of surface waters and deeper waters will be accompanied with a translocation of nutrients and heat, likely leading to a cooling and enhanced biological productivity of surface waters. Enhanced productivity will eventually be followed by enhanced respiration and oxygen consumption that may to some extent offset the initial oxygen gain. Enhanced biological productivity will likely enhance the productivity of higher trophic levels including fish. There will be shifts in the ecosystem, the valuation of which is difficult, but with higher productivity in normally not over-productive waters, these will most likely be viewed positively. It cannot be ruled out that species of little commercial value or possibly even toxic algae may benefit more than others. Mechanisms of such ecological shifts are poorly understood and based on current knowledge there is little expectation that shifts will differ from natural shifts observed when moving from oligotrophic to more eutrophic conditions, such as usually found further onshore.”
+            </p>
+            <p>
+              We aim to review the following topics in describing the science and implementation behind our technology:
             </p>
             <ul>
-              <li>Quis elit egestas venenatis mattis dignissim.</li>
-              <li>Cras cras lobortis vitae vivamus ultricies facilisis tempus.</li>
-              <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
+              <li>Physical footprint: our solution takes advantage of carbon, less constrained by arable land.</li>
+              <li>Capacity: our technology has a path forward to being a meaningful part of any carbon removal solution (i.e., more than 0.5GT CO2/year by 2040). </li>
+              <li>Durable: meaning it stores carbon permanently (more than 1,000 years).  </li>
+              <li>Verifiable: we use scientifically rigorous and transparent methods for monitoring and verification of CO2 sequestered.</li>
+              <li>Additionality: new net carbon being removed rather than taking credit for removal that would have occurred regardless.</li>
+              <li>Safety and compliance: we are legally compliant, responsibly, and actively engaging with the public to determine and mitigate possible risks and negative externalities.</li>
+              <li>Net-negative Lifecycle: overall, our Artificial Upwelling system results in a net reduction in atmospheric CO2            </li>
             </ul>
+            <h2>Technical explanation of Artificial Upwelling</h2>
             <p>
-              Quis semper vulputate aliquam venenatis egestas sagittis quisque orci. Donec commodo sit viverra aliquam
-              porttitor ultrices gravida eu. Tincidunt leo, elementum mattis elementum ut nisl, justo, amet, mattis. Nunc
-              purus, diam commodo tincidunt turpis. Amet, duis sed elit interdum dignissim.
-            </p>
-            <h2>Defining Your Customer Strategy</h2>
-            <p>
-              Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh.
-              Pharetra, euismod vitae interdum mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed tellus
-              mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam turpis
-              ipsum eu a sed convallis diam.
-            </p>
-            <blockquote>
-              <p>
-                Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique
-                pellentesque. Blandit amet, sed aenean erat arcu morbi.
-              </p>
-            </blockquote>
-            <p>
-              Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae
-              sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.
-            </p>
-            <figure>
-              <img
-                className="w-full rounded-lg"
-                src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1679&q=80"
-                alt=""
-                width={1310}
-                height={873}
-              />
-              <figcaption>Sagittis scelerisque nulla cursus in enim consectetur quam.</figcaption>
-            </figure>
-            <h2>Everything you need to get up and running</h2>
-            <p>
-              Purus morbi dignissim senectus mattis <Link to="#">adipiscing</Link>. Amet, massa quam varius orci dapibus
-              volutpat cras. In amet eu ridiculus leo sodales cursus tristique. Tincidunt sed tempus ut viverra ridiculus
-              non molestie. Gravida quis fringilla amet eget dui tempor dignissim. Facilisis auctor venenatis varius nunc,
-              congue erat ac. Cras fermentum convallis quam.
+              Carbon fixation through plant production in the ocean is driven by vertical mixing of nutrient-enriched deep water into sunlit surface layers –achieving net carbon fixation above baseline and net carbon sequestration (CO2 “offsets”). Ocean gyres, particularly the North Pacific gyre, are areas with relatively low vertical mixing and strong vertical nutrient gradients. Horizontal spatial coherence is very high in these gyres, so measuring impacts of pumped upwelling are simplified. The vast gyre areas where conditions are similar suggest scalability of wave-driven pumped upwelling is substantially driven by the number and size of pumps deployed.
             </p>
             <p>
-              Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae
-              sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.
+              The key to producing net carbon sequestration in these low-nutrient, low-chlorophyll (LNLC) ocean gyres are the upwelling of deep waters containing nutrient concentrations greater than the dissolved CO2 concentration plant stoichiometry basis, i.e., the Redfield ratio.
+            </p>
+            <p>
+              In a 2008 paper, David Karl and Ricardo Letelier calculated the net sequestration potential from pump-driven upwelling using data collected at the long-term monitoring Station ALOHA in the North Pacific gyre near Hawaii. They calculated that upwelling of waters from 200 m or deeper provides excess phosphate, which triggers a sequence of nitrate and then phosphate uptake drove blooms of phytoplankton. The secondary phosphate bloom fixes more dissolved CO2 than is upwelled, resulting in net CO2 sequestration. Using the Karl-Letelier calculations, we build our pumps with the intake at 500 m to maximize the carbon fixed per unit area relative to the vertical length of the pump.
+            </p>
+            <p>
+              In 2007, we conducted a sea trial of a 0.75m diameter by 152m deep upwelling pump to determine the upwelling flow rate, which was substantially identical to our current design except for dimensions. With triaxial accelerometers on the valve flappers recording open/close cycles, and temperature sensors top and bottom, we determined the time for deep cold water to surface. The outlet temperature sensor showed cold water arriving at 08:45:00, about 15 minutes after the first upwelling stroke. Dividing tube volume by elapsed time gives a flow rate of 0.078 m3/s.
+            </p>
+
+            <h2>Deployment Locations</h2>
+            <p>
+              The initial location will be in the open ocean, approximately 200nm from Oahu, Hawaii. The initial scale will be ten pumps spaced 720m apart (equal to two per square kilometer diagonally).
+            </p>
+            <p>
+              This location affords access to long-term baseline data from Hawaii Ocean Time Series (HOTS). The HOTS far-field data allows for robustly embedding the data from the pumping volume within a scientifically rigorous time-series data set, which allows for a better understanding of the uncertainty in the carbon sequestration calculations.
             </p>
           </div>
         </div>
