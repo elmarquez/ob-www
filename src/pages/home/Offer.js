@@ -78,7 +78,8 @@ function Page() {
                             Carbon Sequestration as a Service
                         </p>
                         <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">
-                            We build, deploy, and manage arrays of wave-powered pumps to sequester CO<sub>2</sub> on behalf of our customers, who can then claim carbon credits for their business.
+                        Whether you're offsetting a small business or a global enterprise,
+                                    our wave powered pumps are extremely cost effective and can scale to meet your needs.
                         </p>
                     </div>
                     <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
@@ -122,8 +123,8 @@ function Page() {
                             <div className="lg:col-start-2">
                                 <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">Cost is no longer the barrier</h3>
                                 <p className="mt-3 text-lg text-gray-500">
-                                    Whether you're offsetting a small business or a global enterprise,
-                                    our wave powered pumps are extremely cost effective and can scale to meet your needs.
+                                We build, deploy, and manage arrays of wave-powered pumps to sequester CO<sub>2</sub> on behalf of our customers, who can then claim carbon credits for their business.
+
                                 </p>
                                 <dl className="mt-10 space-y-10">
                                     <div className="relative">

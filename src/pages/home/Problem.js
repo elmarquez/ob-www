@@ -2,7 +2,7 @@ import { GlobeAltIcon } from '@heroicons/react/outline';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import PhytoplanktonImage from '../../images/phytoplankton-2.jpg';
+import PhytoplanktonImage from '../../images/phytoplankton.png';
 
 function Page() {
   return (
@@ -79,25 +79,26 @@ function Page() {
               </div>
             </div>
           </div>
-          <div className="mt-12">
+          <div className="mt-12 mb-12">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 md:gap-8">
-              <div className="pt-6 flex items-center justify-center lg:justify-end">
-                <div className="h-96 w-96 m-4">
-                  <div className="overflow-hidden border-gray-800 border-4 h-full w-full rounded-full">
-                    <img className={'h-full'} src={PhytoplanktonImage} alt={"Phytoplankton are the foundation of the ocean food chain and the source of the oxygen we breathe. They also happen to consume carbon dioxide as they grow. Click here to learn more about how they can help us out."} />
+              <div className="flex items-center justify-center lg:justify-end">
+                <div className="h-64 w-64 m-4 md:h-96 md:w-96">
+                  <div className="overflow-hidden border-gray-800 border-4 h-full w-full rounded-full aspect-w-1 aspect-h-1">
+                    <img className={'h-full w-full'} src={PhytoplanktonImage} alt={"Larn more about how phytoplankton can help us out."} />
                   </div>
                 </div>
               </div>
-              <div className="pt-6 pb-12 text-left">
+              <div className="pt-6 pb-6 text-left">
                 <div className="max-w-md lg:pt-8">
                   <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">Phytoplankton</h3>
                   <p className="mt-3 text-lg text-gray-500">
-                    Phytoplankton are the foundation of the ocean food chain and the source
-                    of most of the oxygen we breathe. They also happen to consume vast amounts of 
-                    carbon dioxide as they grow.
+                    Phytoplankton are microscopic organisms that live at the surface of
+                    the ocean and absorb enormous quantities of CO<sub>2</sub> as they
+                    grow. They're also the foundation of the ocean food chain and the source
+                    of most of the oxygen we breathe.
                   </p>
                   <p className="mt-3 text-sm text-gray-500">
-                    Learn more about <Link to="#">phytoplankton</Link>.
+                    Learn more about <Link to="#" className={'text-purple-400 underline'}>phytoplankton</Link>.
                   </p>
                 </div>
               </div>

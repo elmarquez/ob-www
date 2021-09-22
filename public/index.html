@@ -25,6 +25,10 @@
     const WEFUNDER_STICKY_FOOTER = '#wefunder-sticky-footer';
     const WEFUNDER_STICKY_FOOTER_DISMISS_BUTTON = '#dismiss-sticky-footer-button';
 
+    function addClass(el, className) {
+      el.classList.add(className);
+    }
+
     function dismissWefunderStickyFooter() {
       setCookie(WEFUNDER_20210920_HIDE_FOOTER, true);
       $(WEFUNDER_STICKY_FOOTER).remove();
@@ -39,6 +43,10 @@
         }
       }
       return null;
+    }
+
+    function removeClass(el, className) {
+      el.classList.remove(className);
     }
 
     function removeCookie(name) {
@@ -59,7 +67,9 @@
     };
 
     function toggleMenu() {
-      
+      const el = document.getElementById('site-menu');
+      console.log('nav menu', el);
+      el.classList.toggle('hidden');
     }
 
     $(document).ready(function () {
