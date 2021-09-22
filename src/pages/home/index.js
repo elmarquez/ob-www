@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Connect from './Connect';
 import HeroBlock from './Hero';
 import Learn from './Learn';
+import Media from './Media';
 import Mission from './Mission';
 import Offer from './Offer';
 import Problem from './Problem';
@@ -79,6 +80,7 @@ function HomePage() {
         <HeroBlock />
       </header>
       <main className={'flex flex-col'}>
+        <Media />
         <Problem />
         <Solution />
         <Offer />
