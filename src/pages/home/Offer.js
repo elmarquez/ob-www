@@ -86,8 +86,8 @@ function Page() {
                             Carbon Sequestration as a Service
                         </p>
                         <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">
-                            Whether you're offsetting emissions for a global enterprise, small business, or yourself,
-                            we offer an extremely cost effective solution that can scale to meet your needs.
+                            We offer an extremely cost effective solution that can get you to net-zero,
+                            whether you're a global enterprise, small business, or individual.
                         </p>
                     </div>
                     <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
@@ -106,16 +106,24 @@ function Page() {
                                         </div>
                                         <p className="ml-16 text-lg leading-6 font-medium text-gray-900">Businesses Create Value by Addressing Climate Risk</p>
                                     </dt>
-                                    <dd className="mt-2 ml-16 text-base text-gray-500">Climate change is an existential risk. Its clear that companies that work to mitigate that risk are creating new value, and will be rewarded by the market. Those who lag behind will lose relevance.</dd>
+                                    <dd className="mt-2 ml-16 text-base text-gray-500">
+                                        Climate change is an existential risk. Its clear that
+                                        companies that work to mitigate that risk are creating
+                                        new value, and will be rewarded by the market.
+                                    </dd>
                                 </div>
                                 <div className="relative">
                                     <dt>
                                         <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                                             <GlobeAltIcon className="h-6 w-6" aria-hidden="true" />
                                         </div>
-                                        <p className="ml-16 text-lg leading-6 font-medium text-gray-900">Legislation is Setting a New Standard</p>
+                                        <p className="ml-16 text-lg leading-6 font-medium text-gray-900">Markets Have Set the New Standard</p>
                                     </dt>
-                                    <dd className="mt-2 ml-16 text-base text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
+                                    <dd className="mt-2 ml-16 text-base text-gray-500">
+                                        Businesses around the world have raised the bar and are 
+                                        defining new standards for energy and emissions. Businesses 
+                                        that fail to keep up will lose market share.
+                                    </dd>
                                 </div>
                             </dl>
                         </div>
@@ -132,7 +140,6 @@ function Page() {
                                 <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">Better than Land Based Solutions</h3>
                                 <p className="mt-3 text-lg text-gray-500">
                                     We build, deploy, and manage arrays of wave-powered pumps to sequester CO<sub>2</sub> on behalf of our customers, who can then claim carbon credits for their business.
-
                                 </p>
                                 <dl className="mt-10 space-y-10">
                                     <div className="relative">
@@ -140,23 +147,41 @@ function Page() {
                                             <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                                                 <GlobeAltIcon className="h-6 w-6" aria-hidden="true" />
                                             </div>
-                                            <p className="ml-16 text-lg leading-6 font-medium text-gray-900">Low Cost &amp; Low Risk</p>
+                                            <p className="ml-16 text-lg leading-6 font-medium text-gray-900">Lowest Long Term Cost</p>
                                         </dt>
-                                        <dd className="mt-2 ml-16 text-base text-gray-500">Ocean sequestration does not require land, energy, specific geological features, or artificial markets for carbon goods. It can't catch fire. It won't run out of scarce metals. And, once sunk, the CO<sub>2</sub> won't reemerge for more than 100 years.</dd>
+                                        <dd className="mt-2 ml-16 text-base text-gray-500">
+                                            Our pumps are designed to last for 80 years in the harshest marine environments.
+                                            Because of the longevity of our hardware, we can deliver low-risk carbon
+                                            sequestration at scale for $10/ton. Land based solutions don't compare.
+                                        </dd>
                                     </div>
                                     <div className="relative">
                                         <dt>
                                             <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                                                 <GlobeAltIcon className="h-6 w-6" aria-hidden="true" />
                                             </div>
-                                            <p className="ml-16 text-lg leading-6 font-medium text-gray-900">Integrations for Marketing and Management</p>
+                                            <p className="ml-16 text-lg leading-6 font-medium text-gray-900">Lower Risk</p>
+                                        </dt>
+                                        <dd className="mt-2 ml-16 text-base text-gray-500">
+                                            Ocean sequestration does not require land, energy, specific geological features,
+                                            or artificial markets for carbon goods. It can't catch fire. It won't run out of
+                                            scarce metals. And, once sunk, the CO<sub>2</sub> won't reemerge for more than
+                                            100 years.
+                                        </dd>
+                                    </div>
+                                    {/* <div className="relative">
+                                        <dt>
+                                            <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                                                <GlobeAltIcon className="h-6 w-6" aria-hidden="true" />
+                                            </div>
+                                            <p className="ml-16 text-lg leading-6 font-medium text-gray-900">Reduce Your Reporting Costs</p>
                                         </dt>
                                         <dd className="mt-2 ml-16 text-base text-gray-500">
                                             Our customer dashboard and developer API not only make emissions reporting faster and cheaper,
                                             but give you up-to-the-minute data about your AUP fleet. Use our API to provide offsets data in your
                                             marketing channels and build stronger relationships with your customers.
                                         </dd>
-                                    </div>
+                                    </div> */}
                                 </dl>
                             </div>
 
