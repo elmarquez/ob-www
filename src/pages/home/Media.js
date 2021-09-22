@@ -10,7 +10,7 @@ import VoxMediaLogo from '../../images/vox-media.png';
 
 function Page() {
     return (
-        <div className="bg-gray-100 overflow-hidden">
+        <div className="relative mb-16 sm:mb-0 bg-gray-100 overflow-hidden">
             <div className="container mx-auto">
                 <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
                     <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
