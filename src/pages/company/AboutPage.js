@@ -64,9 +64,6 @@ function renderInvestors() {
           scelerisque amet ullamcorper eu enim et fermentum, augue.
         </p> */}
         <div className="mt-8 sm:flex">
-          <a href="https://wefunder.com/gigaton-carbon-capture"
-            className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 mr-4"
-          >Join our WeFunder</a>
           <div className="rounded-md shadow flex">
             <Link
               to="/contact"

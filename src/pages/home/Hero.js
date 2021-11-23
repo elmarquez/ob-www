@@ -54,7 +54,7 @@ function Hero() {
                   </svg>
                 </div>
               </button>
-              <div className={'pt-4 text-xs text-gray-500 w-full text-center text-shadow'}>Watch our WeFunder pitch video</div>
+              <div className={'pt-4 text-xs text-gray-500 w-full text-center text-shadow'}>Watch our pitch video</div>
               <FsLightbox
                 initialAnimation="scale-in-long"
                 slideChangeAnimation="scale-in"
