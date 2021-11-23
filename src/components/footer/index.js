@@ -7,11 +7,11 @@ function Footer(props) {
   const paddingBottom = props.paddingBottom ? props.paddingBottom : 0;
   return (
     <footer className="bg-gray-50" aria-labelledby="footer-heading" style={{"paddingBottom": paddingBottom}}>
-      <h2 id="footer-heading" className="sr-only">Ocean Based Climate Solutions</h2>
+      <h2 id="footer-heading" className="sr-only">Ocean Blooms</h2>
       <div className="max-w-md mx-auto pt-12 px-4 sm:max-w-7xl sm:px-6 lg:pt-16 lg:px-8">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8 xl:col-span-1">
-            <img className="h-10 opacity-50" src={OceanBasedLogo} alt="Ocean Based Climate Solutions" />
+            <img className="h-10 opacity-50" src={OceanBasedLogo} alt="Ocean Blooms" />
             <p className="text-gray-500 text-base">
               Massively scalable, low cost carbon sequestration that revitalizes the ocean
             </p>
@@ -138,7 +138,7 @@ function Footer(props) {
         </div>
         <div className="mt-12 border-t border-gray-200 py-8">
           <p className="text-base text-gray-400 xl:text-center">
-            &copy; 2021 Ocean Based Climate Solutions, Inc. All rights reserved.
+            &copy; 2021 Ocean Blooms Pty. Ltd. All rights reserved.
           </p>
         </div>
       </div>

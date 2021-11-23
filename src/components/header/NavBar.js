@@ -12,7 +12,7 @@ function NavBar(props) {
           <div className="flex items-center justify-between w-full md:w-auto">
             <Link to="/">
               <span className="sr-only">Workflow</span>
-              <img className="h-8 w-auto sm:h-10 drop-shadow-md" src={OceanBasedLogo} alt="Ocean Based Climate Solutions" />
+              <img className="h-8 w-auto sm:h-10 drop-shadow-md" src={OceanBasedLogo} alt="Ocean Blooms Pty Ltd" />
             </Link>
             <div className="-mr-2 flex items-center md:hidden">
               <button type="button" className="bg-gray-900 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-800 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white" aria-expanded="false">
