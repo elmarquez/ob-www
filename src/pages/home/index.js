@@ -45,7 +45,7 @@ function HomePage() {
         <Media />
         <Problem />
         <Solution />
-        <Offer />
+        {/* <Offer /> */}
         {/* <Mission /> */}
         {/* <Learn /> */}
         {/* <Connect /> */}
