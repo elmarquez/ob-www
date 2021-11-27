@@ -46,9 +46,9 @@ function HomePage() {
         <Problem />
         <Solution />
         <Offer />
-        <Mission />
-        <Learn />
-        <Connect />
+        {/* <Mission /> */}
+        {/* <Learn /> */}
+        {/* <Connect /> */}
       </main>
       <Footer paddingBottom={48} />
     </div>

@@ -11,7 +11,7 @@ function NavBar(props) {
         <div className="flex items-center flex-1">
           <div className="flex items-center justify-between w-full md:w-auto">
             <Link to="/">
-              <span className="sr-only">Workflow</span>
+              <span className="sr-only">Ocean Blooms</span>
               <img className="h-8 w-auto sm:h-10 drop-shadow-md" src={OceanBasedLogo} alt="Ocean Blooms Pty Ltd" />
             </Link>
             <div className="-mr-2 flex items-center md:hidden">
@@ -24,14 +24,14 @@ function NavBar(props) {
             </div>
           </div>
           <div className="hidden space-x-8 md:flex md:ml-10">
-            <Link to="/science/climate-emergency" className={`text-base font-medium ${textColor}`}>Climate</Link>
-            <Link to="/science" className={`text-base font-medium ${textColor}`}>Science</Link>
-            <Link to="/technology" className={`text-base font-medium ${textColor}`}>Technology</Link>
-            <Link to="/carbon-credits" className={`text-base font-medium ${textColor}`}>Carbon Credits</Link>
+            <Link to="/" className={`text-base font-medium ${textColor}`}>Climate</Link>
+            <Link to="/" className={`text-base font-medium ${textColor}`}>Science</Link>
+            <Link to="/" className={`text-base font-medium ${textColor}`}>Technology</Link>
+            <Link to="/" className={`text-base font-medium ${textColor}`}>Carbon Credits</Link>
           </div>
         </div>
         <div className="hidden md:flex md:items-center md:space-x-6">
-          <Link to="/login" className={`text-base font-medium ${textColor}`}>Log in</Link>
+          <Link to="/" className={`text-base font-medium ${textColor}`}>Log in</Link>
         </div>
       </nav>
     </div>

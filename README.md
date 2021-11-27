@@ -1,12 +1,29 @@
-# OBCS Public Web Site
+Ocean Blooms Public Web Site
+============================
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Public web site for Ocean Blooms.
 
 
-## Development
+## Setup
 
 Requires NodeJS 15.x or later in the environment. 
 
 Install development and runtime dependencies: 
 
-    npm install
+    yarn install
+
+
+## Development
+
+Start a local development server: 
+
+    yarn start
+
+Build a production deployment bundle: 
+
+    yarn build
+
+Run test suite: 
+
+    yarn test
+

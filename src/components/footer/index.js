@@ -53,18 +53,18 @@ function Footer(props) {
                 </h3>
                 <ul className="mt-4 space-y-4">
                   <li>
-                    <Link to="/technology" className="text-base text-gray-500 hover:text-gray-900">
+                    <Link to="/" className="text-base text-gray-500 hover:text-gray-900">
                       Technology
                     </Link>
                   </li>
                   <li>
-                    <Link to="/certification" className="text-base text-gray-500 hover:text-gray-900">
-                      Verra Certification
+                    <Link to="/" className="text-base text-gray-500 hover:text-gray-900">
+                      Carbon Capture
                     </Link>
                   </li>
                   <li>
-                    <Link to="/carbon-credits" className="text-base text-gray-500 hover:text-gray-900">
-                      Carbon Credits
+                    <Link to="/" className="text-base text-gray-500 hover:text-gray-900">
+                      Certification
                     </Link>
                   </li>
                 </ul>
@@ -75,22 +75,22 @@ function Footer(props) {
                 </h3>
                 <ul className="mt-4 space-y-4">
                   <li>
-                    <Link to="/science/climate-emergency" className="text-base text-gray-500 hover:text-gray-900">
-                      Climate Emergency
+                    <Link to="/" className="text-base text-gray-500 hover:text-gray-900">
+                      Global Warming
                     </Link>
                   </li>
                   <li>
-                    <Link to="/science/carbon-sequestration" className="text-base text-gray-500 hover:text-gray-900">
+                    <Link to="/" className="text-base text-gray-500 hover:text-gray-900">
                       Carbon Sequestration
                     </Link>
                   </li>
                   <li>
-                    <Link to="/science/phytoplankton" className="text-base text-gray-500 hover:text-gray-900">
+                    <Link to="/" className="text-base text-gray-500 hover:text-gray-900">
                       Phytoplankton
                     </Link>
                   </li>
                   <li>
-                    <Link to="/science/artificial-upwelling" className="text-base text-gray-500 hover:text-gray-900">
+                    <Link to="/" className="text-base text-gray-500 hover:text-gray-900">
                       Artificial Upwelling
                     </Link>
                   </li>
@@ -104,16 +104,16 @@ function Footer(props) {
                 </h3>
                 <ul className="mt-4 space-y-4">
                   <li>
-                    <Link to="/company" className="text-base text-gray-500 hover:text-gray-900">About Us</Link>
+                    <Link to="/" className="text-base text-gray-500 hover:text-gray-900">About Us</Link>
                   </li>
                   <li>
-                    <Link to="/blog" className="text-base text-gray-500 hover:text-gray-900">Blog</Link>
+                    <Link to="/" className="text-base text-gray-500 hover:text-gray-900">Blog</Link>
                   </li>
                   <li>
-                    <Link to="/company/opportunities" className="text-base text-gray-500 hover:text-gray-900">Opportunities</Link>
+                    <Link to="/" className="text-base text-gray-500 hover:text-gray-900">Opportunities</Link>
                   </li>
                   <li>
-                    <Link to="/company/press" className="text-base text-gray-500 hover:text-gray-900">Press</Link>
+                    <Link to="/" className="text-base text-gray-500 hover:text-gray-900">Press</Link>
                   </li>
                 </ul>
               </div>
@@ -123,13 +123,13 @@ function Footer(props) {
                 </h3>
                 <ul className="mt-4 space-y-4">
                   <li>
-                    <Link to="/legal/privacy" className="text-base text-gray-500 hover:text-gray-900">Privacy</Link>
+                    <Link to="/" className="text-base text-gray-500 hover:text-gray-900">Privacy</Link>
                   </li>
                   <li>
-                    <Link to="/legal/ccpa" className="text-base text-gray-500 hover:text-gray-900">California Privacy Act</Link>
+                    <Link to="/" className="text-base text-gray-500 hover:text-gray-900">California Privacy Act</Link>
                   </li>
                   <li>
-                    <Link to="/legal/terms" className="text-base text-gray-500 hover:text-gray-900">Terms</Link>
+                    <Link to="/" className="text-base text-gray-500 hover:text-gray-900">Terms</Link>
                   </li>
                 </ul>
               </div>
