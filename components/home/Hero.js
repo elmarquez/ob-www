@@ -6,7 +6,7 @@ import Image from 'next/image'
 import NewsletterSignupForm from '../header/NewsletterSignup';
 import HeroVideoCoverImage from '../../public/images/home-hero-video-cover.png';
 
-function Hero() {
+export default function Hero() {
   const [toggler, setToggler] = useState(false);
   return (
     <div className="pt-10 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
@@ -22,7 +22,8 @@ function Hero() {
               </h1>
               <p className="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl text-shadow-md">
                 Our goal is to capture gigatons of CO<sub>2</sub> and store it in the deep ocean.
-                By doing this, we’ll help companies achieve net-zero emissions, slow global warming, and replenish life in the sea.
+                By doing this, we’ll help companies achieve net-zero emissions, slow global warming,
+                and replenish life in the sea.
               </p>
               <div className="mt-10 sm:mt-12">
                 <NewsletterSignupForm />
@@ -30,14 +31,13 @@ function Hero() {
             </div>
           </div>
           <div className="pb-8 pt-8 lg:m-0 lg:relative flex flex-col justify-center items-center">
-            <div className="relative mx-auto w-full rounded-lg shadow-lg p-4">
+            <div className="relative mx-auto w-full p-4">
               <button
-                type="button"
-                className="relative block w-full rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                className="relative block w-full rounded-lg shadow-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 onClick={() => setToggler(!toggler)}
+                type="button"
               >
-                <span className="sr-only">Watch our video to learn more</span>
-                <Image className="w-full drop-shadow-md" src={HeroVideoCoverImage} alt="Click to watch video" />
+                <Image alt="Click to watch video" className="w-full drop-shadow-md" priority={true} src={HeroVideoCoverImage} />
                 <div className="absolute inset-0 w-full h-full flex items-center justify-center" aria-hidden="true">
                   <svg className="h-20 w-20 text-blue-500" fill="currentColor" viewBox="0 0 84 84">
                     <circle opacity="0.9" cx={42} cy={42} r={42} fill="white" />
@@ -45,6 +45,7 @@ function Hero() {
                   </svg>
                 </div>
               </button>
+              <span className="sr-only">Watch our video to learn more</span>
               <div className={'pt-4 text-xs text-gray-500 w-full text-center text-shadow'}>Watch our pitch video</div>
               <FsLightbox
                 initialAnimation="scale-in-long"
@@ -60,5 +61,3 @@ function Hero() {
     </div>
   );
 }
-
-export default Hero;

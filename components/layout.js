@@ -41,16 +41,14 @@ export function ContentLayout({ children, home }) {
         ) : (
           <>
             <Link href="/">
-              <a>
-                <Image
-                  priority
-                  src="/images/profile.jpg"
-                  className={utilStyles.borderCircle}
-                  height={108}
-                  width={108}
-                  alt={name}
-                />
-              </a>
+              <Image
+                priority
+                src="/images/profile.jpg"
+                className={utilStyles.borderCircle}
+                height={108}
+                width={108}
+                alt={name}
+              />
             </Link>
             <h2 className={utilStyles.headingLg}>
               <Link href="/">

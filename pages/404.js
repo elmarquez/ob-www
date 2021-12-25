@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <ContentLayout home>
       <Head>
-        <title>Oops</title>
+        <title>Ocean Blooms</title>
       </Head>
       <section className={utilStyles.headingMd}>
         <p>Oops, not found</p>

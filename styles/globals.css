@@ -16,6 +16,11 @@ header.hero-background-cover-image {
     -tw-bg-opacity: 1;
 }
 
+.media .brand {
+    display: flex;
+    flex-direction: column;
+}
+
 .text-shadow {
     text-shadow: 1px 1px 2px black;
 }
