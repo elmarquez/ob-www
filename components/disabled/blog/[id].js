@@ -19,14 +19,14 @@ export default function BlogPost(props) {
             </h1>
             <div className="mt-6 flex items-center">
               <div className="flex-shrink-0">
-                <Link href={"#"}>
+                <Link href={"#"} passHref>
                   <span className="sr-only">Daniela Metz</span>
                   <Image className="h-10 w-10 rounded-full" src={'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80'} alt="" />
                 </Link>
               </div>
               <div className="ml-3">
                 <p className="text-sm font-medium text-gray-900">
-                  <Link href={'#'} className="hover:underline">
+                  <Link href={'#'} className="hover:underline" passHref>
                     Daniela Metz
                   </Link>
                 </p>

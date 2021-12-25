@@ -1,9 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image'
+import Image from 'next/image';
 import { ContentLayout } from '../../components/layout';
 
-function ClimatePage() {
+function Page() {
   return (
     <ContentLayout>
       <div className="relative py-16 bg-white overflow-hidden">
@@ -14,12 +14,12 @@ function ClimatePage() {
                 Science
               </span>
               <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                Phytoplankton
+                Carbon Sequestration
               </span>
             </h1>
             <div className="mt-6 flex items-center">
               <div className="flex-shrink-0">
-                <Link href={"#"}>
+                <Link href={"#"} passHref>
                   <span className="sr-only">Daniela Metz</span>
                   <Image className="h-10 w-10 rounded-full" src={'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80'} alt="" />
                 </Link>
@@ -105,4 +105,4 @@ function ClimatePage() {
   );
 }
 
-export default ClimatePage;
+export default Page;

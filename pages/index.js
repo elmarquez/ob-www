@@ -4,9 +4,9 @@ import Script from 'next/script'
 
 import Footer from '../components/footer';
 import NavBar from '../components/header/NavBar';
-import Hero from '../components/home/Hero';
-import Connect from '../components/home/Connect';
-import Learn from '../components/home/Learn';
+import Hero from '../components/home/hero';
+import Connect from '../components/home/connect';
+import Learn from '../components/home/learn';
 import Media from '../components/home/Media';
 import Mission from '../components/home/Mission';
 import Offer from '../components/home/Offer';
@@ -36,6 +36,7 @@ export default function Home() {
         <Footer paddingBottom={48} />
       </div>
       <Script
+        id="__piwiki_init"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `(function(window, document, dataLayerName, id) {

@@ -66,25 +66,25 @@ function renderPost(post) {
         <div className="flex-1 bg-white p-6 flex flex-col justify-between">
           <div className="flex-1">
             <p className="text-sm font-medium text-blue-500">
-              <Link href={post.category.href || '#'} className="hover:underline">
+              <Link href={post.category.href || '#'} className="hover:underline" passHref>
                 {post.category.name}
               </Link>
             </p>
-            <Link href={post.href || '#'} className="block mt-2">
+            <Link href={post.href || '#'} className="block mt-2" passHref>
               <p className="text-xl font-semibold text-gray-900">{post.title}</p>
               <p className="mt-3 text-base text-gray-500">{post.description}</p>
             </Link>
           </div>
           <div className="mt-6 flex items-center">
             <div className="flex-shrink-0">
-              <Link href={post.author.href || '#'}>
+              <Link href={post.author.href || '#'} passHref>
                 <span className="sr-only">{post.author.name}</span>
                 <Image className="h-10 w-10 rounded-full" src={post.author.imageUrl} alt="" />
               </Link>
             </div>
             <div className="ml-3">
               <p className="text-sm font-medium text-gray-900">
-                <Link href={post.author.href || '#'} className="hover:underline">
+                <Link href={post.author.href || '#'} className="hover:underline" passHref>
                   {post.author.name}
                 </Link>
               </p>
