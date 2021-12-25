@@ -1,4 +1,5 @@
 import { SpeakerphoneIcon, XIcon } from '@heroicons/react/outline'
+import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
 
