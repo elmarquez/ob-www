@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 import Footer from '../components/footer';
 import NavBar from '../components/header/NavBar';
-import Hero from '../components/home/hero';
+import Hero from '../components/home/Hero';
 import Connect from '../components/home/Connect';
 import Learn from '../components/home/Learn';
 import Media from '../components/home/Media';
