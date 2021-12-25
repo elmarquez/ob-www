@@ -7,7 +7,7 @@ import NavBar from '../components/header/NavBar';
 import Hero from '../components/home/hero';
 import Connect from '../components/home/connect';
 import Learn from '../components/home/learn';
-import Media from '../components/home/Media';
+import Media from '../components/home/media';
 import Mission from '../components/home/Mission';
 import Offer from '../components/home/Offer';
 import Problem from '../components/home/Problem';
