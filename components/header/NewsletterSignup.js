@@ -18,7 +18,7 @@ export default function NewsletterSignupForm(props) {
                     </div>
                 </div>
                 <p className="mt-3 text-sm text-gray-300 sm:mt-4">
-                    Subscribe to our newsletter for updates. By providing your email, you agree to our
+                    Subscribe to our newsletter for updates. By providing your email, you agree to our{" "}
                     <Link href="#" className="font-medium text-white">terms of service</Link>.
                 </p>
             </form>
