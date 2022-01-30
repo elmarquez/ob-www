@@ -18,21 +18,8 @@ export default function Home() {
       <Head>
         <title>Ocean Blooms - fighting climate change</title>
       </Head>
-      <div className={'relative overflow-hidden'}>
-        <header className={'relative hero-background-cover-image'}>
-          <NavBar dark={true} />
-          <Hero />
-        </header>
-        <main className={'flex flex-col'}>
-          <Media />
-          <Problem />
-          {/* <Solution /> */}
-          {/* <Offer /> */}
-          {/* <Mission /> */}
-          {/* <Learn /> */}
-          {/* <Connect /> */}
-        </main>
-        <Footer paddingBottom={48} />
+      <div className={'container mx-auto max-h-screen overflow-hidden flex flex-column justify-center'}>
+        <div className='m-l'>Ocean Blooms</div>
       </div>
     </>
   )
